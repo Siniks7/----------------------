@@ -1,0 +1,22 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Super book app",
+  "main": "index.js",
+  "scripts": {
+    "kive-s": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siniks7/Book-app"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Nikolay Sponarovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}

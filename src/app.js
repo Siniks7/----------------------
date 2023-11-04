@@ -2,11 +2,12 @@
 //import './app.css'
 
 import { MainView } from './views/main/main';
-
+import { FavoritesView } from './views/favorites/favorites';
 
 class App {
 	routes = [
-		{path: "", view: MainView }
+		{path: "", view: MainView },
+		{path: "#favorites", view: FavoritesView }
 	];
 	appState = {
 		favorites: []
